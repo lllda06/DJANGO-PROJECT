@@ -1,0 +1,10 @@
+[project]
+name = "django-project"
+version = "0.1.0"
+description = "Мой первый Django проект"
+dependencies = [
+    "django>=5.2",
+]
+
+[tool.uv.pip]
+requirement-style = "project"
